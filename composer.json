@@ -1,0 +1,27 @@
+{
+    "name": "alternate/insight",
+    "description": "Insight is a proof-of-concept AI data integration project built on Arc, focused on structured data ingestion, normalization, and analysis.",
+    "version": "1.0.0",
+    "type": "project",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Alternate\\Insight\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tosj Reiling",
+            "email": "t.reiling@alternate.be"
+        }
+    ],
+    "require": {
+        "arc/suite": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tosjreiling/ArcSuite"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d59222469e21761bc5dc4c5823897aba",
+    "packages": [
+        {
+            "name": "arc/suite",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:tosjreiling/ArcSuite.git",
+                "reference": "ea5388efb0ef8dde8d749a586d31240c4e1eb672"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tosjreiling/ArcSuite/zipball/ea5388efb0ef8dde8d749a586d31240c4e1eb672",
+                "reference": "ea5388efb0ef8dde8d749a586d31240c4e1eb672",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-ldap": "*",
+                "ext-openssl": "*",
+                "ext-pdo": "*",
+                "php": ">=8.3"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Arc\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Arc\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tosj Reiling",
+                    "email": "t.reiling@alternate.be",
+                    "role": "Developer",
+                    "homepage": "https://www.alternate.be"
+                }
+            ],
+            "description": "Arc Suite is a modular PHP framework ecosystem providing lightweight, SRP-compliant components for data access, validation, hydration, configuration, session handling, routing, and more. It is designed for clean architecture, strict typing, and seamless integration across applications.",
+            "support": {
+                "source": "https://github.com/tosjreiling/ArcSuite/tree/master",
+                "issues": "https://github.com/tosjreiling/ArcSuite/issues"
+            },
+            "time": "2026-02-04T15:58:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "arc/suite": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
