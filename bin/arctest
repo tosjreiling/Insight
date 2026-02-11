@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+use Arc\Test\Runner\CliRunner;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+// Run
+$runner = new CliRunner($argv);
+exit($runner->run());

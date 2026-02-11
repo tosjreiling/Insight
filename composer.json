@@ -6,7 +6,8 @@
     "license": "proprietary",
     "autoload": {
         "psr-4": {
-            "Alternate\\Insight\\": "app/"
+            "Alternate\\Insight\\": "app/",
+            "Alternate\\Insight\\Tests\\": "tests/"
         }
     },
     "authors": [

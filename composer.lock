@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:tosjreiling/ArcSuite.git",
-                "reference": "ea5388efb0ef8dde8d749a586d31240c4e1eb672"
+                "reference": "340030a3e442af14581921a3f0c06a89dde3f2f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tosjreiling/ArcSuite/zipball/ea5388efb0ef8dde8d749a586d31240c4e1eb672",
-                "reference": "ea5388efb0ef8dde8d749a586d31240c4e1eb672",
+                "url": "https://api.github.com/repos/tosjreiling/ArcSuite/zipball/340030a3e442af14581921a3f0c06a89dde3f2f1",
+                "reference": "340030a3e442af14581921a3f0c06a89dde3f2f1",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
                 "source": "https://github.com/tosjreiling/ArcSuite/tree/master",
                 "issues": "https://github.com/tosjreiling/ArcSuite/issues"
             },
-            "time": "2026-02-04T15:58:25+00:00"
+            "time": "2026-02-11T11:19:16+00:00"
         }
     ],
     "packages-dev": [],
